@@ -19,7 +19,7 @@ body{
   background: url('../img/home.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 800px;
 
   
 
@@ -29,7 +29,7 @@ body{
     top:0;
     left:0;
     width: 100%;
-    min-height: 700px;
+    min-height: 800px;
   }
 
   .home-inner{
@@ -50,6 +50,27 @@ body{
 }
 
 #explore-section{
+  .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+    margin-top: 15px;
+  }
+}
+
+#create-section{
+  .fa{
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#share-section{
   .fa{
     color: #fff;
     background: #333;
